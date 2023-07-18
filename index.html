@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HOTPLATE</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> HotPlate. </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#appetizer">appetizer</a>
+      <a href="#promo">promo</a>
+      <a href="#dessert">dessert</a>
+      <a href="js.html">javascript</a>
+      <a href="#about">about</a>
+     
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Lezat Mantul!</span>
+               <h3>Hotplate & Dessert</h3>
+               <a href="#" class="btn">selamat datang</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>Blackpaper</span>
+               <h3>lezat bergizi buanget</h3>
+               <a href="#" class="btn">selamat datang</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>Dessert</span>
+               <h3>creamy & Lembut</h3>
+               <a href="#" class="btn">selamat datang</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- appetizer section starts  -->
+
+<section class="food" id="appetizer">
+
+   <div class="heading">  
+      <span>makanan utama</span>
+      <h3>murah dan enak</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Steak Hotplate</h3>
+            <div class="price">RP 30.000</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Mie Hotplate</h3>
+            <div class="price">RP 25.000</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Beef Blackpaper</h3>
+            <div class="price">RP 20.000</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>Chicken Hotplate</h3>
+            <div class="price">RP 25.000</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>Udang Hotplate</h3>
+            <div class="price">RP 30.000</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- appetizer section ends -->
+
+<!-- appetizer preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>Steak Hotplate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Daging yang fresh menjadikan steak empuk dengan tambahan saus Bbq yang khas homemade, Lezat!!</p>
+      <div class="price">RP 30.000</div>
+      <a href="#order" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>Mie Hotplate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Mie lembut buatan rumah  dicampur dengan saus rahasia dapur, Lezat!</p>
+      <div class="price">RP 25.000</div>
+      <a href="#order" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>Beef Blackpaper</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Daging slice yang dipotong tipis dan saus blackpaper yang Enak!</p>
+      <div class="price">RP 20.000</div>
+      <a href="#order" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>Chicken Hotplate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Dengan bumbu yang khas ayam dibakar diatas hotplate dengan dibaluri saus </p>
+      <div class="price">RP 25.000</div>
+      <a href="#order" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>Udang Hotplate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Udang yang di import langsung dari pantai widuri segar yang dimasakh dengan bumbu homemade </p>
+      <div class="price">RP 30.000</div>
+      <a href="#order" class="btn">buy now</a>
+   </div>
+
+</section>
+
+<!-- appetizer preview section ends -->
+
+<!-- promo section ends -->
+
+<section class="products" id="promo">
+
+   <h1 class="heading"> Promo <br> <span>Diskon sampe 50%</span> </h1>
+
+   <div class="box-container">
+
+       <div class="box">
+           <div class="icons">
+               <a href="#order" class="fas fa-shopping-cart"></a>
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+           </div>
+           <div class="image">
+               <img src="images/food-img-1.png" alt="">
+           </div>
+           <div class="content">
+               <h3>Steak Hotplate</h3>
+               <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+               </div>
+               <div class="price">RP 20.000 <span>RP 30.000</span></div>
+           </div>
+       </div>
+
+       <div class="box">
+           <div class="icons">
+               <a href="#order" class="fas fa-shopping-cart"></a>
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+           </div>
+           <div class="image">
+               <img src="images/food-img-5.png" alt="">
+           </div>
+           <div class="content">
+               <h3>Udang Hotplate</h3>
+               <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+               </div>
+               <div class="price">RP 17.000 <span>RP 30.000</span></div>
+           </div>
+       </div>
+
+       <div class="box">
+           <div class="icons">
+               <a href="#order" class="fas fa-shopping-cart"></a>
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+           </div>
+           <div class="image">
+               <img src="images/food-img-4.png" alt="">
+           </div>
+           <div class="content">
+               <h3>Chicken Hotplate</h3>
+               <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+               </div>
+               <div class="price">RP 23.000 <span>RP 25.000</span></div>
+           </div>
+       </div>
+
+   </div>
+
+</section>
+
+<!-- promo section ends -->
+
+<!-- dessert section ends -->
+
+<section class="dessert" id="dessert">
+
+   <h1 class="heading"> Dessert <span><br> pilih sesuka hati</span> </h1>
+
+   <div class="box-container">
+
+       <div class="box">
+           <img src="images/Dessert-img-1.png" alt="">
+           <h3>Regal Dessert Box</h3>
+           <div class="price">RP 10.000 <span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+       <div class="box">
+           <img src="images/Dessert-img-2.png" alt="">
+           <h3>Keju Dessert Box</h3>
+           <div class="price">RP 15.000<span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+       <div class="box">
+           <img src="images/Dessert-img-3.png" alt="">
+           <h3>Turkish Dessert Box</h3>
+           <div class="price">RP 20.000<span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+       <div class="box">
+           <img src="images/Dessert-img-4.png" alt="">
+           <h3>Ice Cream Corn</h3>
+           <div class="price">RP 8.000<span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+       <div class="box">
+           <img src="images/Dessert-img-5.png" alt="">
+           <h3>Vanilla Ice Bowl</h3>
+           <div class="price">RP 15.000<span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+       <div class="box">
+           <img src="images/Dessert-img-6.png" alt="">
+           <h3>Croffle Stroberry Ice </h3>
+           <div class="price">RP 25.000<span></span></div>
+           <a href="#order" class="btn">Buy Now</a>
+       </div>
+
+   </div>
+
+</section>
+
+<!-- dessert section ends -->
+
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>order sekarang</span>
+      <h3>Jangan sampe bimbang </h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>Nama</span>
+               <input type="text" placeholder="masukan nama kamu">
+            </div>
+            <div class="inputBox">
+               <span>Nama makanan</span>
+               <input type="text" placeholder="masukan nama makanan">
+            </div>
+      
+            <div class="inputBox">
+               <span>Alamat kamu</span>
+               <textarea name="" placeholder="masukan alamat kamu" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>Nomor HP</span>
+               <input type="number" placeholder="masukan nomor HP">
+            </div>
+            <div class="inputBox">
+               <span>Berapa banyak</span>
+               <input type="number" placeholder="berapa yang kamu mau">
+            </div>
+            <div class="inputBox">
+               <span>Waktu pemesanan</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+             
+
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+   
+</section>
+
+<!-- order section ends -->
+
+<!-- js section starts  -->
+
+<!-- js section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="flex-container-p">
+      <div class="flex-container">
+          <div class="flex-item-right-p-p">
+              <h5 style="font-size: xxx-large;"> Pernyataan </h5>
+              <p class="p-per">
+                  Saya yang bertandatangan di bawah ini menyatakan tidak mencontek/berbuat curang selama mengerjakan soal ujian ini. Jika ternyata saya melanggar, saya bersedia dikenakan sanksi berupa dibatalkan nilai ujian mata kuliah ini.
+              </p>
+          </div>
+      </div>
+      <div class="flex-container">
+          <div class="flex-item-left-p">
+              <div class="dd" style="text-align: left;">
+                  <pre style="width: 0px;">
+                  <ul style="list-style: none; line-height: 15px; font-size: large; font-weight: bold;">
+                     
+                  </ul>
+              </pre>
+              </div>
+          </div>
+          <div class="flex-item-right-p">
+              <p style="text-align:center">Yang menyatakan</p>
+              <img src="images/ttd.png" alt="">
+              <p style="text-align:center">Chusnia Dzurriati</p>
+              <p style="text-align:center">NIM. 2103040038</p>
+          </div>
+      </div>
+  </div>
+
+
+   <div class="image">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Hallo guys!<br> Mimin yang buat web mau kenalan nih </h3>
+      <p>Chusnia Dzurriati mahasiswa Teknik Informatika yang sedang menginjak semster 3.<br> tahun ini berusia 19 tahun. <br>memiliki hobi bermain game, memasak, dan berlari.<br> ciata cita nya ingin menjadi front-end developer kita aminin yuk temen temen<br> AMIN   </p>
+      <a href="#" class="btn">read more</a>
+      <div class="icons-container">
+        
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+62 857-4757-9309 </p>
+         
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>hotplate.id_01@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>address</h3>
+         <p>Ds. Karangsari,<br> Pemalang 52355</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit"> created by <span>Chusnia</span>  </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
