@@ -1,1 +1,0 @@
-# hotplate_website
